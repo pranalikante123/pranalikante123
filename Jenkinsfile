@@ -8,7 +8,11 @@ pipeline {
         }
         stage('test') {
             steps {
+<<<<<<< HEAD
                 bat "systeminfo"
+=======
+                cat "systeminfo"
+>>>>>>> dc5822ad5b5daecb0003db34d7794b37c2da272e
             }
         }
         stage('deploy') {
