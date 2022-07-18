@@ -8,7 +8,11 @@ pipeline {
         }
         stage('test') {
             steps {
+<<<<<<< HEAD
                 bat "systeminfo"
+=======
+                cat "systeminfo"
+>>>>>>> main
             }
         }
         stage('deploy') {
